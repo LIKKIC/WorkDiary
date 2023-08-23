@@ -1,0 +1,257 @@
+header h1{
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    color: maroon;
+}
+header aside {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    
+}
+#add-work{
+    border-radius: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+header aside :hover{
+    background-color: peru;
+    cursor: pointer;
+    /* width: 60px; */
+}
+header{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: darkgray;
+}
+
+.date{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: skyblue;
+    color: black;
+}
+
+.main-table{
+    width: 100%;
+    border-radius: 5px;
+    border-collapse: collapse;
+    border: 1px solid black;
+        background-color: #BBC7C8;
+        font-family: 'Hind', sans-serif;
+        /* font-style: italic; */
+        position: relative;
+        left: 50px;
+        width: 1265px;
+        height: 20px;
+        text-align: center;
+        border-collapse: collapse;
+        font-size: 17px;
+        box-shadow: 5px 5px 8px 8px #5A5553;
+    
+    
+}
+.analysis-sec{
+    border-collapse: collapse;
+}
+.analysis-heading{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+    color: black;
+}
+
+#Analyse{
+    position: relative;
+    justify-content: center;
+    left: 45%;
+    border-radius: 5px;
+    margin: 2%;
+}
+#Analyse:hover{
+    background-color: #5A5553;
+    position: relative;
+    justify-content: center;
+    left: 45%;
+    border-radius: 5px;
+    margin: 2%;
+}
+/* Sign up */
+#re {
+    
+    border: 7px solid black;
+    margin: 106px 80px;
+    padding: 80px;
+    width: 33%;
+    border-radius: 28px;
+    text-align: center;
+    justify-content: left;
+    border-style: ridge;
+    position: relative;
+    margin-left: 350px;
+    display: block;
+    /* z-index: -1; */
+    opacity: 1;
+    box-shadow: 10px 8px 8px 8px #0A0909;
+    /* background-color:  #a; */
+}
+
+/* Title Header */
+
+#h1 {
+    text-align: center;
+    /* color: #244D61; */
+    color: yellow;
+    font-family: 'Cabin Condensed', sans-serif;
+    /* font-style: italic; */
+    font-size: 60px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 10;
+    background-color: rgb(112, 3, 3);
+}
+
+/* navbar */
+
+.navbar {
+    background-color: rgb(34, 32, 32);
+    overflow: auto;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 2px 1px;
+
+}
+
+.navbar li a {
+    font-size: large;
+    color: whitesmoke;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: purple;
+    text-decoration: underline;
+    border-radius: 25px;
+    background-color: #eeeeee;
+}
+
+/*form */
+
+
+.form-group input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+    text-emphasis-color: black;
+    text-align: center;
+    justify-content: center;
+    /* display: none; */
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 8px;
+    opacity: 10px;
+    left: 100;
+    color: black;
+    /* background-color: #aab1b1; */
+}
+
+.body {
+    /* content: ""; */
+    /* background: linear-gradient(rgba(56, 55, 55, 0.6),rgba(109, 107, 107, 0.3)),url('img/backgroudimg.jpg'); */
+    /* background: url('img/backgroudimg.jpg'); */
+    z-index: 34;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 1px;
+    /* width: 100%; */
+    opacity: 0.8;
+    /* filter: brightness(80%); */
+}
+
+/* Sign Up button */
+
+#s {
+    justify-content: left;
+    right: 2px;
+    font-size: 12px;
+    padding: 10px;
+    background-color: rgb(rgb(217, 255, 0), green, blue);
+    position: relative;
+    width: 130px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+#s:hover{
+    justify-content: left;
+    right: 2px;
+    padding: 10px;
+    background-color: gray;
+    position: relative;
+    width: 140px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    /* display: none; */
+}
+
+#date-input{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.analysys-tab{
+    display: block;
+    position: relative;
+    margin: 10px 45px;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    border: 5px solid black;
+    width: 800px;
+    left: 250px;
+    background-color: #C7D5C8;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px 8px #5A5553;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+}
+
+.card-titles{
+    background-color: lightgrey;
+}
+
+.analysis-card{
+    /* margin: 10px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
